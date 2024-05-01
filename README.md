@@ -39,4 +39,6 @@ nohup hiveserver2 > hive_server.log 2>&1 &
 beeline -u jdbc:hive2://localhost:10000 vagrant
 ```
 -- Query the table
+```bash
 SELECT * from client;
+```
