@@ -2,14 +2,19 @@
 Telecharger le dossier /ELT et placé le dans votre dossier vagrant 
 
 ### Demmarage de l'application java ELT
-'''path 
+-- path 
+```bash
 export MYPATH=/vagrant/ELT/
-
+```
 -- compile application 
+```bash
 javac -cp $MYPATH/jar/*:$MYPATH  $MYPATH/Client.java
+```
 
 -- execute application 
+```bash
 java -cp $MYPATH/jar/*:$MYPATH  Client
+```
 
 
 ## Hive
